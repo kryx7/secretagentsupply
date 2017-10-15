@@ -1,0 +1,54 @@
+html{
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+.header{
+  background-color: black;
+  width: 100%;
+}
+.logo-top{
+  background-color: black;
+  height: 65px;
+  display: flex;
+  padding-left: 300px;
+}
+.title{
+  color: white;
+  padding-left: 1rem;
+  padding-top: 22px;
+
+}
+.img-logo{
+  padding-top: 5px;
+  height: 54px;
+  width: 82px;
+  }
+
+.banner{
+  background-image: url("C:/Users/cristina.babonea/PROJECTS/SecretAgentSupply/resources/moto.jpeg");
+  height: 50rem;
+  background-repeat: no-repeat;
+background-size: 100%;
+}
+.new{
+  background-color: black;
+  position: relative;
+  height: 300px;
+  width: 20em;
+  top: 9em;
+  margin-left: 300px;
+
+}
+h1{
+  color: white;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+h4{
+  color: white;
+  padding-top: 50px;
+  padding-left: 3rem;
+
+}
