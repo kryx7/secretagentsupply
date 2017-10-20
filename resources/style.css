@@ -30,5 +30,45 @@ html{
 }
 .title span{
   padding-left: 1rem;
+}
+.main-banner-image-moto{
+  height:25rem;
+  background-image: url("C:/Users/cristina.babonea/PROJECTS/SecretAgentSupply/resources/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 9rem;
+  padding-left: 471px;
+}
+.container{
+  color: white;
+  background-color: black;
+  width: 25rem;
+  display: flex;
+  padding-bottom: 30px;
 
+}
+h4{
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+  margin-top: 0.25rem;
+}
+.navigator-red{
+  background-color: firebrick;
+}
+.nav-elements span{
+  color: white;
+  padding: 0.75rem 0;
+}
+.nav-elements{
+  width: 960px;
+  display:flex;
+  padding-left: 471px;
+  justify-content: space-around;
 }
