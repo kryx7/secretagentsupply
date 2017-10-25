@@ -42,10 +42,10 @@ html{
 .container{
   color: white;
   background-color: black;
-  width: 25rem;
+  width: 20rem;
   display: flex;
-  padding-bottom: 30px;
-
+  padding-bottom: 32px;
+  padding-right: 48px;
 }
 h4{
   font-size: 1rem;
@@ -57,7 +57,6 @@ h1{
   font-size: 2rem;
   font-weight: bold;
   padding-left: 3rem;
-  margin-top: 0.25rem;
 }
 .navigator-red{
   background-color: firebrick;
@@ -67,8 +66,38 @@ h1{
   padding: 0.75rem 0;
 }
 .nav-elements{
-  width: 960px;
+  max-width: 960px;
   display:flex;
   padding-left: 471px;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.container-products{
+  width: 960px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-left: 471px;
+}
+.product{
+  width: 30%;
+  border: 4px solid black;
+  justify-content: center;
+  display: block;
+}
+.product-image img{
+  max-width: 8em;
+}
+.product-image{
+  height: 9rem;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  padding: 2rem 0;
+}
+p {
+  background-color: black;
+  color: white;
+  padding:0.5rem 0;
+  text-align: center;
 }
