@@ -95,9 +95,37 @@ h1{
   display: flex;
   padding: 2rem 0;
 }
-p {
+.product-text{
   background-color: black;
   color: white;
   padding:0.5rem 0;
   text-align: center;
+}
+.location{
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  padding-left: 471px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.info-text{
+  background-color: black;
+  color:white;
+  padding: 1rem 2rem;
+  display: block;
+}
+.info{
+width: 35%;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+.footer-container{
+  max-width: 960px;
+  padding-left: 471px;
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
